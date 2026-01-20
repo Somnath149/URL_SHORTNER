@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3000/api/url';
+const API_BASE_URL = 'https://url-shortner-backend-ccsi.onrender.com/api/url';
 import axios from 'axios';
 
 
