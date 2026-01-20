@@ -9,13 +9,13 @@ export default function UrlHistory() {
   }
 
   const handleCopy = (shortCode) => {
-    const fullUrl = `http://localhost:3000/api/url/${shortCode}`;
+    const fullUrl = `https://url-shortner-backend-ccsi.onrender.com/api/url/${shortCode}`;
     navigator.clipboard.writeText(fullUrl);
    
   };
 
   const getUrl = (shorturl) => {
-    window.open(`http://localhost:3000/api/url/${shorturl}`, '_blank');
+    window.open(`https://url-shortner-backend-ccsi.onrender.com/api/url/${shorturl}`, '_blank');
   };
 
   return (
